@@ -35,5 +35,5 @@ The script performs the following operations to import, clean, and transform the
 
 ## Special instructions for running run_analysis.R
 
-- The script assumes that the data source files are in the a directory called UCI HAR Dataset that's in the current working directory. It assumes that the directory structure and file names and locations with UCI Har Dataset have not been changed since they were extracted from the source .zip file.
+- The script assumes that the data source files are in the same directory as the script. It assumes that the directory structure and file names and locations with UCI Har Dataset have not been changed since they were extracted from the source .zip file.
 - The references to file locations in [run_analysis.R](./run_analysis.R) are written to work with the Mac file system.
