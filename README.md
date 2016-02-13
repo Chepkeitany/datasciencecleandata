@@ -1,12 +1,12 @@
 # This file provides a brief description of the files and directories in this repo.
-The tidy data in [tidy_dataset.txt](./tidy_data_set.txt) can be read into R with the following code:
-read.table("tidy_data_set.txt")
+The tidy data in [tidy_dataset.txt](./tidy_dataset.txt) can be read into R with the following code:
+read.table("tidy_dataset.txt")
 
 ## Overview
 
-[codebook.md](./codebook.md) describes the specific details of variables, values, and units in the tidy data set.
+[Codebook.md](./Codebook.md) describes the specific details of variables, values, and units in the tidy data set.
 
-The [tidy_data_et.txt](./tidy_data_set.txt) file in this directory is a tidy subset of the data provided in the Human Activity Recognition Using Smartphones Data Set. The source data is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# and it's also included in the UCI HAR Dataset directory in this repo.
+The [tidy_dataset.txt](./tidy_data_set.txt) file in this directory is a tidy subset of the data provided in the Human Activity Recognition Using Smartphones Data Set. The source data is available from http://archive.ics.uci.edu/ml/datasets/Human+Activity+Recognition+Using+Smartphones# and can be downloaded from here https://d396qusza40orc.cloudfront.net/getdata%2Fprojectfiles%2FUCI%20HAR%20Dataset.zip.
 
 tidy_dataset.txt includes the combined test and training data sets from the following files:
 
