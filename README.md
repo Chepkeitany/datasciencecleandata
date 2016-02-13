@@ -1,3 +1,4 @@
+
 # This file provides a brief description of the files and directories in this repo.
 The tidy data in [tidy_dataset.txt](./tidy_dataset.txt) can be read into R with the following code:
 read.table("tidy_dataset.txt")
@@ -37,3 +38,6 @@ The script performs the following operations to import, clean, and transform the
 
 - The script assumes that the data source files are in the same directory as the script. It assumes that the directory structure and file names and locations with UCI Har Dataset have not been changed since they were extracted from the source .zip file.
 - The references to file locations in [run_analysis.R](./run_analysis.R) are written to work with the Mac file system.
+
+# Many Thanks
+This project borrows concepts detailed in https://thoughtfulbloke.wordpress.com/2015/09/09/getting-and-cleaning-the-assignment/ and implementations by students in the course over the past year.
