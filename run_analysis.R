@@ -20,7 +20,6 @@ listOfNames <- make.names(features, unique=TRUE)
 names(metrics) <- listOfNames
 
 # Extract only the measurements on the mean and standard deviation for each measurement.
-# Do not extract meanfreq measurements
 columnIndexes = sapply(listOfNames, function(colname){ grepl(colname,  pattern = "\\.std.") | grepl(colname,  pattern = "\\.mean.")})
 metrics <- metrics[, columnIndexes]
 
@@ -46,10 +45,10 @@ names(data) <- str_replace_all(names(data), "[.]Z", "ZAxis")
 names(data) <- str_replace_all(names(data), ".mean", "Mean")
 names(data) <- str_replace_all(names(data), ".std", "StandardDeviation")
 names(data) <- str_replace_all(names(data), "BodyBody", "Body")
-names(data) <- str_replace_all(names(data), "tBody", "TimeBody")
-names(data) <- str_replace_all(names(data), "fBody", "FrequencyBody")
-names(data) <- str_replace_all(names(data), "tGravity", "TimeGravity")
-names(data) <- str_replace_all(names(data), "fGravity", "FrequencyGravity")
+names(data) <- str_replace_all(names(data), "tBody", "Body")
+names(data) <- str_replace_all(names(data), "fBody", "FFTBody")
+names(data) <- str_replace_all(names(data), "tGravity", "Gravity")
+names(data) <- str_replace_all(names(data), "fGravity", "FFTGravity")
 names(data) <- str_replace_all(names(data), "Acc", "Acceleration")
 names(data) <- str_replace_all(names(data), "Gyro", "AngularVelocity")
 names(data) <- str_replace_all(names(data), "Mag", "Magnitude")

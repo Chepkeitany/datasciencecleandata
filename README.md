@@ -1,5 +1,5 @@
 # This file provides a brief description of the files and directories in this repo.
-The tidy data in [tidy_data_set.txt](./tidy_data_set.txt) can be read into R with the following code:
+The tidy data in [tidy_dataset.txt](./tidy_data_set.txt) can be read into R with the following code:
 read.table("tidy_data_set.txt")
 
 ## Overview
@@ -23,7 +23,7 @@ The main principles of tidy data that I employed were:
 2. Each variable is in one column.
 3. Each observation of the variable is in a different row.
 
-[codebook.md](./codebook.md) describes the tidy data set.
+[Codebook.md](./codebook.md) describes the tidy data set.
 
 
 ## Description of run_analysis.R
